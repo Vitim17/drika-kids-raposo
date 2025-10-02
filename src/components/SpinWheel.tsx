@@ -118,7 +118,7 @@ const SpinWheel = () => {
           <Button
             onClick={() => {
               const piece = wonDiscount && wonDiscount <= 25 ? "primeira peça" : "segunda peça";
-              const message = `Olá! Ganhei ${wonDiscount}% de desconto na ${piece} pela Roleta da Sorte da Drika Kids Raposo! 🎉`;
+              const message = `Olá! Ganhei ${wonDiscount}% de desconto na ${piece} pela Roleta da Sorte da Drika Kids Raposo! 🏪🎉`;
               const whatsappUrl = `https://wa.me/5522998937692?text=${encodeURIComponent(message)}`;
               window.open(whatsappUrl, '_blank');
             }}

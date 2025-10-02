@@ -1,0 +1,76 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background Gradient -->
+  <rect width="1200" height="630" fill="url(#bgGradient)"/>
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ff6b9d;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#9c27b0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#03a9f4;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Decorative Elements -->
+  <g opacity="0.4">
+    <!-- Stars -->
+    <text x="100" y="150" font-family="Fredoka" font-size="100" fill="white">⭐</text>
+    <text x="1000" y="200" font-family="Fredoka" font-size="100" fill="white">✨</text>
+    <text x="150" y="450" font-family="Fredoka" font-size="120" fill="white">🎉</text>
+    
+    <!-- Toys -->
+    <text x="900" y="450" font-family="Fredoka" font-size="80" fill="white">🧸</text>
+    <text x="120" y="300" font-family="Fredoka" font-size="90" fill="white">🚀</text>
+  </g>
+  
+  <!-- Main Content -->
+  <!-- Title -->
+  <text x="600" y="200" font-family="Fredoka" font-weight="700" font-size="90" text-anchor="middle" fill="white" stroke="black" stroke-width="4">
+    🎉 Drika Kids 🎉
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="600" y="280" font-family="Poppins" font-weight="600" font-size="45" text-anchor="middle" fill="white" stroke="black" stroke-width="2">
+    Especial Dia das Crianças
+  </text>
+  
+  <!-- Description -->
+  <text x="600" y="350" font-family="Poppins" font-weight="400" font-size="28" text-anchor="middle" fill="white" stroke="black" stroke-width="1">
+    🎯 Gire a Roleta e Ganhe Até 35% de Desconto! 🎯
+  </text>
+  
+  <!-- Call to Action -->
+  <rect x="350" y="400" width="500" height="80" rx="40" fill="black" opacity="0.5"/>
+  <text x="600" y="450" font-family="Fredoka" font-weight="700" font-size="32" text-anchor="middle" fill="white" stroke="black" stroke-width="2">
+    🎪 DESCONTOS INCÍVEIS! 🎪
+  </text>
+  
+  <!-- Spinning Wheel Visual (simplified) -->
+  <g transform="translate(600,500)">
+    <!-- Wheel Background -->
+    <circle cx="0" cy="0" r="50" fill="black" opacity="0.3"/>
+    
+    <!-- Wheel Sections -->
+    <circle cx="0" cy="0" r="40" fill="none" stroke="white" stroke-width="2"/>
+    
+    <!-- Dividers -->
+    <g stroke="white" stroke-width="2">
+      <line x1="-40" y1="-40" x2="40" y2="40"/>
+      <line x1="40" y1="-40" x2="-40" y2="40"/>
+    </g>
+    
+    <!-- Center Circle -->
+    <circle cx="0" cy="0" r="20" fill="white"/>
+    <circle cx="0" cy="0" r="15" fill="#333"/>
+    
+    <!-- Pointer -->
+    <path d="M 0,-20 L 8,-50 L -8,-50 Z" fill="#fff"/>
+    
+    <!-- Discount Text -->
+    <text x="0" y="-65" font-family="Fredoka" font-size="16" text-anchor="middle" fill="white" stroke="black" stroke-width="2">35%</text>
+  </g>
+  
+  <!-- Bottom Banner -->
+  <rect x="0" y="580" width="1200" height="50" fill="black" opacity="0.7"/>
+  <text x="600" y="610" font-family="Poppins" font-size="22" text-anchor="middle" fill="white">
+    🍭 Produtos Infantis de Qualidade 🎨 Livros 🎮 Brinquedos 🧸
+  </text>
+</svg>
