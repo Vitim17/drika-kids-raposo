@@ -99,9 +99,14 @@ const SpinWheel = () => {
           onClick={spinWheel}
           disabled={isSpinning}
           size="lg"
-          className="font-fredoka font-bold text-xs sm:text-xl px-4 sm:px-12 py-3 sm:py-8 rounded-full shadow-2xl transform transition-all hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed bg-gradient-to-r from-kids-pink via-kids-purple to-kids-blue text-white border-2 sm:border-4 border-white w-full sm:w-auto text-center"
+          className="font-fredoka font-bold text-lg sm:text-xl px-6 sm:px-12 py-6 sm:py-8 rounded-full shadow-2xl transform transition-all hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed bg-gradient-to-r from-kids-pink via-kids-purple to-kids-blue text-white border-2 sm:border-4 border-white w-full sm:w-auto text-center"
         >
-          {isSpinning ? "🌟 Girando..." : "🎯 Gire a Roleta e Garanta seu Desconto"}
+          {isSpinning ? "🌟 Girando..." : (
+            <>
+              <span className="sm:hidden">🎯 Girar Roleta</span>
+              <span className="hidden sm:inline">🎯 Gire a Roleta e Garanta seu Desconto</span>
+            </>
+          )}
         </Button>
       ) : (
         <div className="space-y-4 sm:space-y-6 w-full">

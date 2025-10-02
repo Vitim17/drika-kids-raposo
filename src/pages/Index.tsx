@@ -10,7 +10,7 @@ const Index = () => {
         {/* Header */}
         <div className="text-center mb-8 md:mb-12 space-y-4">
           <h1 className="font-fredoka font-semibold text-3xl md:text-4xl lg:text-5xl text-kids-purple drop-shadow-lg">
-            🏪 Drika Kids Raposo - Especial Dia das Crianças 🎉
+            🎉 Drika Kids - Especial Dia das Crianças 🎉
           </h1>
           
           <div className="inline-block bg-gradient-to-r from-kids-pink via-kids-purple to-kids-blue p-1 rounded-2xl shadow-2xl animate-float">
