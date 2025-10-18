@@ -3,11 +3,10 @@ import { Button } from "@/components/ui/button";
 import { toast } from "sonner";
 
 const SEGMENTS = [
-  { discount: 20, color: "bg-kids-pink" },
-  { discount: 25, color: "bg-kids-blue" },
-  { discount: 30, color: "bg-kids-yellow" },
-  { discount: 35, color: "bg-kids-green" },
-  { discount: 15, color: "bg-kids-orange" },
+  { discount: 5, color: "bg-kids-pink" },
+  { discount: 10, color: "bg-kids-blue" },
+  { discount: 15, color: "bg-kids-yellow" },
+  { discount: 20, color: "bg-kids-green" },
 ];
 
 const SpinWheel = () => {
@@ -41,7 +40,7 @@ const SpinWheel = () => {
       setHasSpun(true);
       
       // Determinar se é primeira ou segunda peça
-      const piece = winningDiscount <= 25 ? "primeira peça" : "segunda peça";
+      const piece = winningDiscount <= 10 ? "primeira peça" : "segunda peça";
       const message = `Você ganhou ${winningDiscount}% de desconto na ${piece}!`;
       setPrizeMessage(message);
       
@@ -83,7 +82,7 @@ const SpinWheel = () => {
                 <div
                   className="absolute top-[20%] left-1/2 -translate-x-1/2 text-white font-fredoka font-bold text-2xl sm:text-3xl drop-shadow-lg"
                   style={{
-                    transform: `rotate(${(360 / SEGMENTS.length) / 2}deg) translateX(17px)`,
+                    transform: `rotate(${(360 / SEGMENTS.length) / 2}deg) translateX(35px)`,
                   }}
                 >
                   {segment.discount}%
@@ -122,7 +121,7 @@ const SpinWheel = () => {
           {/* WhatsApp Button */}
           <Button
             onClick={() => {
-              const piece = wonDiscount && wonDiscount <= 25 ? "primeira peça" : "segunda peça";
+              const piece = wonDiscount && wonDiscount <= 10 ? "primeira peça" : "segunda peça";
               const message = `Olá! Ganhei ${wonDiscount}% de desconto na ${piece} pela Roleta da Sorte da Drika Kids Raposo! 🏪🎉`;
               const whatsappUrl = `https://wa.me/5522998937692?text=${encodeURIComponent(message)}`;
               window.open(whatsappUrl, '_blank');

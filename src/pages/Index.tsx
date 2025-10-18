@@ -10,13 +10,13 @@ const Index = () => {
         {/* Header */}
         <div className="text-center mb-8 md:mb-12 space-y-4">
           <h1 className="font-fredoka font-semibold text-3xl md:text-4xl lg:text-5xl text-kids-purple drop-shadow-lg">
-            🎉 Drika Kids - Especial Dia das Crianças 🎉
+            🎉 Drika Kids - Especial Mês das Crianças 🎉
           </h1>
           
           <div className="inline-block bg-gradient-to-r from-kids-pink via-kids-purple to-kids-blue p-1 rounded-2xl shadow-2xl animate-float">
             <div className="bg-card px-6 py-4 rounded-xl">
               <p className="font-poppins font-semibold text-xl md:text-2xl text-foreground">
-                👶 Dia das Crianças é na Drika Kids Raposo, aproveite agora descontos exclusivos!
+                👶 Mês das Crianças é na Drika Kids Raposo, aproveite agora descontos exclusivos!
               </p>
             </div>
           </div>
@@ -39,7 +39,7 @@ const Index = () => {
           </div>
           
           <p className="font-poppins text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
-            Cada giro é uma surpresa! Descontos especiais de até <span className="text-kids-orange font-bold">35%</span> esperando por você! 🎯
+            Cada giro é uma surpresa! Descontos especiais de até <span className="text-kids-orange font-bold">20%</span> esperando por você! 🎯
           </p>
           
           <div className="flex flex-wrap justify-center gap-3 text-4xl mt-6">
